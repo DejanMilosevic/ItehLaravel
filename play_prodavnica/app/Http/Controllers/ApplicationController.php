@@ -110,7 +110,7 @@ class ApplicationController extends Controller
             'release_date' => $request->release_date
         ]);
 
-        return response()->json(['message' => 'Aplikacija se uspesno azurirana.', 'application' => $application]);
+        return response()->json(['message' => 'Aplikacija je uspesno azurirana.', 'application' => $application]);
     }
 
     /**
