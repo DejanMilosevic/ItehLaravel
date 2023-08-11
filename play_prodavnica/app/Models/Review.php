@@ -20,7 +20,7 @@ class Review extends Model
         return $this->belongsTo(User::class);
     }
 
-    public function reviews(){
-        return $this->hasMany(Review::class);
+    public function application(){
+        return $this->belongsTo(Application::class);
     }
 }
