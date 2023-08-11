@@ -11,7 +11,7 @@ class Application extends Model
 
     protected $fillable = [
         'user_id',
-        'title',
+        'name',
         'description',
         'number_of_downloads',
         'release_date'
